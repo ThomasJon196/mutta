@@ -12,4 +12,4 @@ Steps:
   - Upgrade apt (package manager): `$ sudo apt upgrade`
   - Install snap-store (other package manager): `$ sudo apt install snapd`
   - Install ngrok: `$ sudo snap install ngrok` (follow ngrok website installation)
-5.
+  - Connect from outside localhost: `$ ssh <username>@0.tcp.ngrok.io -p <PORT>`
