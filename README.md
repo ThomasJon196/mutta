@@ -1,6 +1,17 @@
 # muta
 Pi private cloud projekt
 
+Plan:
+- Objective: Private cloud storage with access from the internet
+- Why important: Security, Scalability, Costs, cross-platform
+- Milestones: storage solution for multiple devices via
+  1. terminal
+  2. GUI
+  3. Website
+- Biggest obstacles: static IP-Address only with paid providers
+- Personal interest: Aquire knowledge in: networking, file-system
+- How much time: 2 hours per week.
+
 Steps:
 
 1. Install rasp. OS on SD-Card. (SD card adapter required)
@@ -22,3 +33,5 @@ Install ngrok (to expose PI port to internet)
     ![image](https://user-images.githubusercontent.com/50245942/164467902-21f77ce8-7265-4d1d-9384-e1f633a045e9.png)
 
   - Connect from outside localhost: `$ ssh <username>@0.tcp.ngrok.io -p <PORT>` (<Use
+
+                                                                                      
