@@ -1,7 +1,7 @@
-# muta
+# muta - cloud
 Pi private cloud projekt
 
-Plan:
+### Plan:
 - Objective: Private cloud storage with access from the internet
 - Why important: Security, Scalability, Costs, cross-platform
 - Milestones: storage solution for multiple devices via
@@ -12,11 +12,13 @@ Plan:
 - Personal interest: Aquire knowledge in: networking, file-system
 - How much time: 2 hours per week.
 
-Steps:
+## Steps:
 
-1. Install rasp. OS on SD-Card. (SD card adapter required)
-2. Enable SSH connection via shell
-3. (from here localhost-network has access to PI, mouse, keyboard & screen not required anymore)
+Install raspberry PI OS on SD-Card. (SD card adapter required)
+
+### Enable remote access (local network)
+Enable SSH connection via shell
+(from here localhost-network has access to PI, mouse, keyboard & screen not required anymore)
   - Check ip address: ifconfig
   - Connect from other device: `$ ssh <username>@<ip-address>` (password and user from OS installation)
 
