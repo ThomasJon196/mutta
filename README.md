@@ -1,6 +1,6 @@
 # muta - cloud
 Pi private cloud projekt
-
+Tutorial: https://www.makeuseof.com/tag/build-your-own-cloud-storage-with-raspberry-pi-and-bittorrent-sync/
 ### Plan:
 - Objective: Private cloud storage with access from the internet
 - Why important: Security, Scalability, Costs, cross-platform
