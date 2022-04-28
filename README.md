@@ -37,3 +37,5 @@ Install ngrok (to expose PI port to internet)
   - Connect from outside localhost: `$ ssh <username>@0.tcp.ngrok.io -p <PORT>` (<Use
 
                                                                                       
+use public IPv4-address : (Find via https://www.whatismyip.com/)
+Tutorial: https://www.youtube.com/watch?v=ZKfnGqMrnug&feature=youtu.be
