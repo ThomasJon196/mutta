@@ -34,8 +34,19 @@ Install ngrok (to expose PI port to internet)
   - Copy address from blue box shown in picture below:
     ![image](https://user-images.githubusercontent.com/50245942/164467902-21f77ce8-7265-4d1d-9384-e1f633a045e9.png)
 
-  - Connect from outside localhost: `$ ssh <username>@0.tcp.ngrok.io -p <PORT>` (<Use
+  - Connect from outside localhost: `$ ssh <username>@0.tcp.ngrok.io -p <PORT>` (<Use>)
 
                                                                                       
 use public IPv4-address : (Find via https://www.whatismyip.com/)
 Tutorial: https://www.youtube.com/watch?v=ZKfnGqMrnug&feature=youtu.be
+
+  
+### Mount USB-Drive (or any other drive)
+- Create partitions as described here: ![Creating Partitions in Linux](https://phoenixnap.com/kb/linux-create-partition)
+
+- List disk names: `$ sudo fdisk -l`
+- Mount drive via: `$ sudo mount -t auto /dev/sda1 /media/sync` to a specific folder (in this case our cloud-sync folder)
+
+
+                                                                                      
+                                                                                
