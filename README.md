@@ -17,7 +17,7 @@ Tutorial: https://www.makeuseof.com/tag/build-your-own-cloud-storage-with-raspbe
 Install raspberry PI OS on SD-Card. (SD card adapter required)
 
 ### Enable remote access (local network)
-Enable SSH connection via shell
+  - Enable SSH connection via shell: `$ raspi-config` -> interfaceing options -> enable ssh
 (from here localhost-network has access to PI, mouse, keyboard & screen not required anymore)
   - Check ip address: ifconfig
   - Connect from other device: `$ ssh <username>@<ip-address>` (password and user from OS installation)
