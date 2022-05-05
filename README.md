@@ -2,15 +2,15 @@
 Pi private cloud projekt
 Tutorial: https://www.makeuseof.com/tag/build-your-own-cloud-storage-with-raspberry-pi-and-bittorrent-sync/
 ### Plan:
-- Objective: Private cloud storage with access from the internet
-- Why important: Security, Scalability, Costs, cross-platform
-- Milestones: storage solution for multiple devices via
-  1. terminal
-  2. GUI
-  3. Website
-- Biggest obstacles: static IP-Address only with paid providers
-- Personal interest: Aquire knowledge in: networking, file-system
-- How much time: 2 hours per week.
+  - Objective: Private cloud storage with access from the internet
+  - Why important: Security, Scalability, Costs, cross-platform
+  - Milestones: storage solution for multiple devices via
+    1. terminal
+    2. GUI
+    3. Website
+  - Biggest obstacles: static IP-Address only with paid providers
+  - Personal interest: Aquire knowledge in: networking, file-system
+  - How much time: 2 hours per week.
 
 ## Steps:
 
@@ -46,7 +46,8 @@ Tutorial: https://www.youtube.com/watch?v=ZKfnGqMrnug&feature=youtu.be
 
 - List disk names: `$ sudo fdisk -l`
 - Mount drive via: `$ sudo mount -t auto /dev/sda1 /media/sync` to a specific folder (in this case our cloud-sync folder)
-
-
-                                                                                      
+  
+  
+## LOG
+  
                                                                                 
