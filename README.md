@@ -1,4 +1,4 @@
-# muta - cloud
+# mutta - cloud
 Pi private cloud projekt
 Tutorial: https://www.makeuseof.com/tag/build-your-own-cloud-storage-with-raspberry-pi-and-bittorrent-sync/
 ### Plan:
