@@ -43,6 +43,7 @@ Tutorial: https://www.youtube.com/watch?v=ZKfnGqMrnug&feature=youtu.be
   
 ### Mount USB-Drive (or any other drive)
 - Create partitions as described here: [Creating Partitions in Linux](https://phoenixnap.com/kb/linux-create-partition)
+  - Dont forget to format partition via: ´$ sudo mkfs -t ext4 /dev/sdb1´ into desired type (ext4)
 
 - List disk names: `$ sudo fdisk -l`
 - Mount drive via: `$ sudo mount -t auto /dev/sda1 /media/sync` to a specific folder (in this case our cloud-sync folder)
