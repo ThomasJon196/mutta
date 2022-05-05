@@ -51,6 +51,6 @@ Tutorial: https://www.youtube.com/watch?v=ZKfnGqMrnug&feature=youtu.be
 ### File-Syncronization: [Syncthing](https://syncthing.net/downloads/)
   
 ## LOG
-  - 05.05.22: 
-    - Created and mounted USB partitions using `$ fdisk` command 
-    - Added Syncthing for file syncronization between mutliple devices (currently only localy accessible)                                                                          
+05.05.22: 
+  - Created and mounted USB partitions using `$ fdisk` command 
+  - Added Syncthing for file syncronization between mutliple devices (currently only localy accessible)                                                                          
