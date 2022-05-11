@@ -47,7 +47,7 @@ Tutorial: https://www.youtube.com/watch?v=ZKfnGqMrnug&feature=youtu.be
 
 - List disk names: `$ sudo fdisk -l`
 - Mount drive via: `$ sudo mount -t auto /dev/sda1 /media/sync` to a specific folder (in this case our cloud-sync folder)
-  
+  [When mounting a directory, the old files become invisible until the folder is unmounted again via: `% umount <dir>`
 ### File-Syncronization: [Syncthing](https://syncthing.net/downloads/)
 
   
