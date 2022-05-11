@@ -53,6 +53,8 @@ Tutorial: https://www.youtube.com/watch?v=ZKfnGqMrnug&feature=youtu.be
   
 - On raspberry:
   - Install syncthing via: [Installation](https://pimylifeup.com/raspberry-pi-syncthing/)
+  - Start syncthing - service via : `$ sudo systemctl start syncthing@mutta` and enable auto startup via `$ sudo systemctl enable syncthing@mutta` 
+  - Login remotely into rasp-pi syncthing interface, create login credentials inside Options/GUI (required for configuration and adding of new devices)
   
 - On machine that should have access to Sync-Storage
   - Download and install Syncthing from https://syncthing.net/downloads/
@@ -62,4 +64,7 @@ Tutorial: https://www.youtube.com/watch?v=ZKfnGqMrnug&feature=youtu.be
 ## LOG
 05.05.22: 
   - Created and mounted USB partitions using `$ fdisk` command 
-  - Added Syncthing for file syncronization between mutliple devices (currently only localy accessible)                                                                          
+  - Added Syncthing for file syncronization between mutliple devices (currently only localy accessible)                                                                 
+11.05.22:
+  - Added devices to a synced folder
+  - Mounted USB drive to synced folder. (Problems with file-permissions with lost+found dir -> Created .stignore-File and added lost+found dir so its not tracked)
