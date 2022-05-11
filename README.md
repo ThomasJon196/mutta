@@ -65,6 +65,7 @@ Tutorial: https://www.youtube.com/watch?v=ZKfnGqMrnug&feature=youtu.be
 05.05.22: 
   - Created and mounted USB partitions using `$ fdisk` command 
   - Added Syncthing for file syncronization between mutliple devices (currently only localy accessible)                                                                 
+
 11.05.22:
   - Added devices to a synced folder
   - Mounted USB drive to synced folder. (Problems with file-permissions with lost+found dir -> Created .stignore-File and added lost+found dir so its not tracked)
