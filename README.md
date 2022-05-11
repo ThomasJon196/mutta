@@ -49,6 +49,15 @@ Tutorial: https://www.youtube.com/watch?v=ZKfnGqMrnug&feature=youtu.be
 - Mount drive via: `$ sudo mount -t auto /dev/sda1 /media/sync` to a specific folder (in this case our cloud-sync folder)
   
 ### File-Syncronization: [Syncthing](https://syncthing.net/downloads/)
+
+  
+- On raspberry:
+  - Install syncthing via: [Installation](https://pimylifeup.com/raspberry-pi-syncthing/)
+  
+- On machine that should have access to Sync-Storage
+  - Download and install Syncthing from https://syncthing.net/downloads/
+  - Add machine ID from Actions/SHOW ID to raspberry pi syncthing page on <PI-ADDR>:8384 and visa versa
+  - Enable folder sharing
   
 ## LOG
 05.05.22: 
